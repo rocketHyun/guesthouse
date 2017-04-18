@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>홍안 게스트하우스</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  <link href="//cdn.jsdelivr.net/nanumsquare/1.0/nanumsquare.css" rel="stylesheet" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+  <!-- 헤더바 -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+
+          <a class="navbar-brand" href="#" onclick="scrollHome()">
+            <!-- <img alt="Brand" src="..."> -->
+            <h1 class="fsize-mid">홍안 게스트하우스</h1>
+          </a>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- navbar-header end -->
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right fsize-small">
+            <li>
+              <a href="#" onclick="scrollFacility()">부대시설</a>
+            </li>
+            <li>
+              <a href="#" onclick="scrollInfo()">이용안내</a>
+            </li>
+            <li>
+              <a href="#" onclick="scrollPlace()">위치</a>
+            </li>
+            <li>
+              <a href="#">예약</a>
+            </li>
+          </ul>
+          <!-- #nav-list -->
+        </div>
+        <!-- .collapse .navbar-collapse -->
+      </div>
+    </nav>
+  </header>
+
+  <!-- 랜딩 비디오 -->
+  <section id="landing-content">
+    <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+      <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
+    <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
+    </video>
+    <div class="video-content">
+      <div id="main-text">
+        <div class="container">
+          <h3 class="fsize-big">홍안 게스트 하우스</h3>
+          <p>filmed by Alexander Wagner 2011
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 부대시설 -->
+  <section id="facility-content">
+    <div class="container">
+      <div class="facility-title">
+        <h3 class="fsize-big">부대시설</h3>
+      </div>
+      <div class="facility-icon">
+        <div class="row">
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+          <!-- <div style="clear:both;"></div> -->
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+          <div class="col-xs-4 col-md-3">
+            <div class="icon-img-div">
+              <img class="icon-img" src="img/barbecue.png" alt="">
+            </div>
+            <div class="icon-text fsize-mid">
+              와이파이
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fsize-small">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+    </div>
+  </section>
+
+  <section id="information-content">
+    <div class="container">
+      <div class="information-title">
+        <h3 class="fsize-big">이용안내</h3>
+      </div>
+      <div class="information-text">
+        <div class="col-md-4 col-xs-12">
+          <h4 class="fsize-mid">게스트하우스 비용</h4>
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <p class="fsize-mid">1인 35,000원(기본 수건1,생수1 제공)</p>
+        </div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+        <div class="col-md-4 col-xs-12">
+          <h4 class="fsize-mid">게스트하우스 렌트</h4>
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <p class="fsize-mid">9인 기준 350,000원(인당추가비용)</p>
+        </div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+        <div class="col-md-4 col-xs-12">
+          <h4 class="fsize-mid">이용 시간</h4>
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <p class="fsize-mid">입실 15:00 퇴실 13:00</p>
+        </div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+        <div class="col-md-4 col-xs-12">
+          <h4 class="fsize-mid">루프탑 촬영 대여</h4>
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <p class="fsize-mid">시간당 150000만원(협의가능)</p>
+        </div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+        <div class="col-md-4 col-xs-12">
+          <h4 class="fsize-mid">추가비용</h4>
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <p class="fsize-mid">물과 수건은 추가 대여 시 개당 1,000원 아침은 빵과,커피 무제한 인당 2,000원 와인은  병 당 15,000원 렌트기준! 바베큐시설 이용 30,000원(숯,집게,가위)</p>
+        </div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+        <div class="col-md-4 col-xs-12">
+          <h4 class="fsize-mid">주의사항</h4>
+        </div>
+        <div class="col-md-8 col-xs-12">
+          <p class="fsize-mid">루프탑 바베큐 이용시간은 18시-21시까지 이며 21시 정리후 22시까지 간단하게 이용가능 (21시이후로는 주변이 주택가이니 소음을 삼가부탁드립니다)
+          </p><p class="fsize-mid">
+          저희 게스트하우스는 따로 주차공간이 마련되어있지 않습니다. 미리 양해 부탁드립니다. 주차는 해방촌 오거리,용산2가동 주민센터 주차장 이용부탁드립니다. (24시간 이용비용 2만원)
+          </p>
+        </div>
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="place-content">
+    <div class="container">
+      <div class="place-title">
+        <h3 class="fsize-big">위치 및 연락처</h3>
+      </div>
+      <div class="place-text fsize-mid">
+        <div class="row">
+          <div class="col-xs-12 pt">
+            <div class="col-xs-3">
+              <h5 class="fsize-mid">주소</h5>
+            </div>
+            <div class="col-xs-9">
+              <p class="fsize-small">
+                서울특별시 용산구 두텁바위로 40길 32-6
+              </p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-xs-3">
+              <h5 class="fsize-mid">전화</h5>
+            </div>
+            <div class="col-xs-9">
+              <p class="fsize-small">
+                010-5880-2445(이성민)<br />
+                010-2456-2628(안요현)
+              </p>
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.320341334501!2d126.98143711560711!3d37.54751583297422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca25b1d825dd3%3A0x84d1efa5710a7bc8!2z7ISc7Jq47Yq567OE7IucIOyaqeyCsOq1rCDrkZDthYHrsJTsnITroZw0MOq4uCAzMi02!5e0!3m2!1sko!2skr!4v1492497139248" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <div class="text-center fsize-small">&copy; Copyright HongAn 2017</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
