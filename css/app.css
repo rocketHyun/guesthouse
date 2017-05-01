@@ -2,7 +2,8 @@ body {
   font-size: 25px !important;
   /*color: #fff;*/
   /*background-color: #61122f;*/
-  font-family: 'NanumSquare', sans-serif;
+  /*font-family: 'NanumSquare', sans-serif;*/
+  font-family:'BM JUA','배달의민족 주아',sans-serif;
 }
 
 
@@ -83,6 +84,8 @@ video {
 #facility-content{
   width:100%;
   background: white;
+  padding-top:50px;
+  padding-bottom: 50px;
 }
 
 .icon-img-div{
@@ -98,11 +101,22 @@ video {
   text-align: center;
 }
 
+.license{
+  margin-top:20px;
+}
+
 /* information content */
+
 #information-content{
   width:100%;
   background-color: black;
   color:white;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+.information-title > h3 {
+  margin-top:0px;
+  margin-bottom:20px;
 }
 
 .information-text > div {
@@ -111,16 +125,20 @@ video {
 
 .information-text h4{
   font-weight: bold;
+  margin: 0px;
 }
 
 /* place content */
 #place-content{
   width:100%;
   background-color: white;
+  padding-top:50px;
+  padding-bottom: 50px;
 }
 
 .place-text h5 {
   font-weight: bold;
+  margin: 0px;
 }
 
 .place-text > div.row > div.pt {
