@@ -155,28 +155,29 @@ video {
     }
 
     .fsize-mid{
-      font-size: 1em;
+      font-size: 1.3em;
     }
 
     .fsize-small{
-      font-size: .6em;
+      font-size: 1em;
     }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    .fsize-big{
-      font-size:1.5em;
-    }
 
-    .fsize-mid{
-      font-size: 1em;
-    }
+      .fsize-big{
+        font-size:1.5em;
+      }
 
-    .fsize-small{
-      font-size: .6em;
-    }
+      .fsize-mid{
+        font-size: 1.3em;
+      }
+
+      .fsize-small{
+        font-size: 1em;
+      }
 }
 
 /********** Small devices only **********/
@@ -187,11 +188,11 @@ video {
     }
 
     .fsize-mid{
-      font-size: 0.8em;
+      font-size: 1.2em;
     }
 
     .fsize-small{
-      font-size: .6em;
+      font-size: 0.9em;
     }
 }
 
@@ -206,12 +207,23 @@ video {
   }
 
   .fsize-small{
-    font-size: .6em;
+    font-size: .7em;
   }
 }
 
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+  .fsize-big{
+    font-size:1.2em;
+  }
+
+  .fsize-mid{
+    font-size: 0.9em;
+  }
+
+  .fsize-small{
+    font-size: .7em;
+  }
 
 }
