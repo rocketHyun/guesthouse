@@ -2,9 +2,9 @@
 
 @font-face{
 font-family:jua;
-src:url('/font/BMJUA.eot');
+src:url('/guesthouse/font/BMJUA.eot');
 src:local(※),
-	url('/font/BMJUA.woff') format('woff');
+	url('/guesthouse/font/BMJUA.woff') format('woff');
 }
 
 body {
