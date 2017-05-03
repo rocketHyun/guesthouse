@@ -1,3 +1,5 @@
+@import url('https://cdn.rawgit.com/singihae/Webfonts/master/style.css');
+
 body {
   font-size: 25px !important;
   /*color: #fff;*/
@@ -181,11 +183,11 @@ video {
 @media (min-width: 768px) and (max-width: 991px) {
 
     .fsize-big{
-      font-size:1.5em;
+      font-size:1.3em;
     }
 
     .fsize-mid{
-      font-size: 1em;
+      font-size: 0.8em;
     }
 
     .fsize-small{
@@ -196,11 +198,11 @@ video {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   .fsize-big{
-    font-size:1.5em;
+    font-size:1.2em;
   }
 
   .fsize-mid{
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   .fsize-small{
