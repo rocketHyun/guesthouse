@@ -1,11 +1,18 @@
-@import url('https://cdn.rawgit.com/singihae/Webfonts/master/style.css');
+@charset "UTF-8";
+
+@font-face{
+font-family:jua;
+src:url('/font/BM_JUA.eot');
+src:local(※),
+	url('/font/BM_JUA.woff') format('woff');
+}
 
 body {
   font-size: 25px !important;
   /*color: #fff;*/
   /*background-color: #61122f;*/
   /*font-family: 'NanumSquare', sans-serif;*/
-  font-family:'BM JUA','배달의민족 주아',sans-serif;
+  font-family:'배달의민족 주아','jua',sans-serif;
 }
 
 
