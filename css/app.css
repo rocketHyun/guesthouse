@@ -33,6 +33,14 @@ header{
   margin-bottom: 0px;
 }
 
+.navbar-brand {
+	padding:0 0 0 16px;
+}
+
+.navbar-brand img {
+	height: 100%;
+}
+
 .navbar-brand h1 { /* Restaurant name */
   color: #fff;
   font-size: 1.2em;
